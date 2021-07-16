@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.selection.SelectionActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_anagramTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/anagram_task"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+
+        android:id="@+id/tv_fibonacciTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/fibonacci_task"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anagramTask" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_currencyTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/currency_task"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fibonacciTask" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_calculationTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:text=" ((3+1)/3)*9 =12"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_currencyTask" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

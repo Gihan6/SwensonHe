@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SwensonHe</string>
+    <string name="eur">EUR</string>
+    <string name="enter_here">Enter Here to select Currency</string>
+    <string name="anagram_task">Anagram Task</string>
+    <string name="fibonacci_task">Fibonacci Task</string>
+    <string name="currency_task">Currency Task</string>
+    <string name="enter_first_string">Enter First String</string>
+    <string name="enter_second_string">Enter Second String</string>
+    <string name="test">Test</string>
+    <string name="anagram">Anagram</string>
+    <string name="not_anagram">Not Anagram</string>
+</resources>
